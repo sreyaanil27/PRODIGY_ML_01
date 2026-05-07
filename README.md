@@ -91,4 +91,27 @@ Preprocessing steps:
 # Model Performance
 
 ## Cross Validation R² Scores
-[0.8531, 0.8238, 0.8110, 0.8119, 0.6982]
+
+```text
+[0.85313165, 0.82386022, 0.81104143, 0.81189815, 0.698288]
+```
+
+Average CV R² Score:
+
+0.7996
+
+## Train vs Test Performance
+
+| Metric | Value |
+|---|---|
+| Train R² | 0.8084 |
+| Test R² | 0.8324 |
+
+## Final Evaluation Metrics
+
+| Metric | Value |
+|---|---|
+| MAE | 21799.52 |
+| MSE | 1285652619.08 |
+| RMSE | 35856.00 |
+| R² Score | 0.8324 |
